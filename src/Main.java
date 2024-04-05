@@ -5,22 +5,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-
-//        for the 3 problem
-//        int num = sc.nextInt();
-//
-//        boolean check = isPrime(num);
-//
-//        System.out.println(check ? "Prime" : "Composite");
-
-//        for the 7 problem
-//        String input = sc.nextLine();
-//
-//        permute(input.toCharArray(), 0, input.length() - 1);
-
+//Просто вводите task1(); и тд........
 
     }
+
+//    public static void task1() {
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        int size = sc.nextInt();
+//
+//        int min = minimum(size);
+//
+//        System.out.println(min);
+//    }
 
 //Problem 1. Complexity: linear - O(n)
 //    public static int minimum(int size) {
@@ -41,6 +39,16 @@ public class Main {
 //
 //    }
 
+//    public static void task2() {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int size = sc.nextInt();
+//
+//        double avg = average(size);
+//
+//        System.out.println(avg);
+//    }
+
 //Problem 2. Complexity: linear - O(n)
 //    public static double average(int size) {
 //        Scanner sc = new Scanner(System.in);
@@ -53,6 +61,17 @@ public class Main {
 //        }
 //
 //        return averageValue / size;
+//    }
+
+//    public static void task3() {
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        int num = sc.nextInt();
+//
+//        boolean check = isPrime(num);
+//
+//        System.out.println(check ? "Prime" : "Composite");
 //    }
 
 //Problem 3. Complexity: linear - O(n)
@@ -71,6 +90,15 @@ public class Main {
 //        return true;
 //    }
 
+//    public static void task4() {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int num = sc.nextInt();
+//        int factorialToPrint = factorial(num);
+//
+//        System.out.println(factorialToPrint);
+//    }
+
 //Problem 4. Complexity: recursion - O(n)
 //    public static int factorial(int num) {
 //
@@ -79,6 +107,16 @@ public class Main {
 //        }
 //
 //        return num * factorial(num - 1);
+//    }
+
+//    public static void task5() {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int fibonacciNum = sc.nextInt();
+//
+//        int fibonacciNumToPrint = fibonacci(fibonacciNum);
+//
+//        System.out.println(fibonacciNumToPrint);
 //    }
 
 //Problem 5. Complexity: recursion - O(2^n)
@@ -91,6 +129,16 @@ public class Main {
 //
 //    }
 
+//    public static void task6() {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int exponent = sc.nextInt();
+//
+//        int exponentToPrint = exponentOfTwo(exponent);
+//
+//        System.out.println(exponentToPrint);
+//    }
+
 //Problem 6. Complexity: recursion - O(n)
 //    public static int exponentOfTwo(int exponent) {
 //
@@ -99,6 +147,15 @@ public class Main {
 //        }
 //
 //        return 2 * exponentOfTwo(exponent - 1);
+//    }
+
+//    public static void task7() {
+//        Scanner sc = new Scanner(System.in);
+//
+//
+//        String input = sc.nextLine();
+//
+//        permute(input.toCharArray(), 0, input.length() - 1);
 //    }
 
 //Problem 7. Complexity: recursion - O(n!)
@@ -120,6 +177,16 @@ public class Main {
 //        word[j] = temp;
 //    }
 
+//    public static void task8() {
+//        Scanner sc = new Scanner(System.in);
+//
+//        String str = sc.next();
+//
+//        boolean valid = isDigit(str);
+//
+//        System.out.println(valid ? "Yes" : "No");
+//    }
+
 //Problem 8. Complexity: linear - O(n)
 //    public static boolean isDigit(String text) {
 //
@@ -134,6 +201,17 @@ public class Main {
 //        return true;
 //    }
 
+//    public static void task9() {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int n = sc.nextInt();
+//        int k = sc.nextInt();
+//
+//        int numToPrint = binomialCoefficient(n, k);
+//
+//        System.out.println(numToPrint);
+//    }
+
 //Problem 9. Complexity: recursion - O(2^n)
 //    public static int binomialCoefficient(int n, int k) {
 //        if (k == 0 || k == n) {
@@ -141,6 +219,17 @@ public class Main {
 //        } else {
 //            return binomialCoefficient(n - 1, k - 1) + binomialCoefficient(n - 1, k);
 //        }
+//    }
+
+//    public static void task10() {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//
+//        int numToPrint = euclideanAlgorithm(a, b);
+//
+//        System.out.println(numToPrint);
 //    }
 
 //Problem 10. Complexity: recursion - O(я не знаю какой у него time complexity).
